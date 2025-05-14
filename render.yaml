@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: contact-backend
+    env: python
+    buildCommand: ""
+    startCommand: "python backend.py"
